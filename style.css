@@ -1,0 +1,49 @@
+header{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+#logo{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 0px;
+    left: 0px;
+}
+#email{
+    color:white;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+#email:hover{
+    color: gray;
+}
+header h4 {
+    font-size:smaller;
+}
+
+.col-md-6 img{
+    width: 350px;
+    height: 470px;
+    text-align: left;
+}
+
+.col-md-6{
+    margin-top: 40px;
+}
+
+#certs{
+    text-align: center;
+    font-weight: 700;
+}
+
+footer{
+    background-color: #f8cbac;
+    text-align: center;
+}
+.sm_icon{
+    width: 50px;
+  }
+  
