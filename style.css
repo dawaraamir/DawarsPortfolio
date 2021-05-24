@@ -20,6 +20,11 @@ header{
 #email:hover{
     color: gray;
 }
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 header h4 {
     font-size:smaller;
 }
@@ -32,6 +37,7 @@ header h4 {
 
 .col-md-6{
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #certs{
