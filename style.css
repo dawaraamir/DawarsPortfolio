@@ -4,6 +4,36 @@ header{
     padding: 30px;
     width: 100%;
 }
+.animate-pop-in {
+    animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+    opacity: 0;
+  }
+  
+  .name {
+    animation-delay: .8s;
+  }
+  
+  .sub {
+    animation-delay: 1s;
+  }
+  .logo {
+    animation-delay: 1s;
+  }
+
+  .email {
+    animation-delay: 1s;
+  }
+
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem) scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
 #logo{
     position: absolute;
     width: 85px;
@@ -14,7 +44,7 @@ header{
 #email{
     color:white;
     position: absolute;
-    top: 110px;
+    top: 105px;
     right: 10px;
 }
 #email:hover{

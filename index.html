@@ -11,12 +11,27 @@
     <title>Dawar Portfolio</title>
 </head>
 <body style="background-image: url('images/abstract-grey-background-with-dynamic-waves-technology-network_29865-1635.jpeg');">
+    <style>
+        body {
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
     <div class="row" id="header">
         <header class="col-md-12">
-    <img src="images/23850DBD-B91D-4769-936F-E21E0C7C7772.JPEG" alt="" id="logo">
-    <h1 style="font-family: 'Ubuntu', sans-serif; color: white;">Dawar Aamir</h1>
-    <h4 style="font-family: 'Ubuntu', sans-serif; color: white;">Advertiser//Developer</h4>
-    <a href="mailto: dawar.aamir@gmail.com" id="email" style="font-family: 'Ubuntu', sans-serif;">Contact Me</a>
+    <img class="logo animate-pop-in" src="images/23850DBD-B91D-4769-936F-E21E0C7C7772.JPEG" alt="" id="logo">
+    <h1 class="name animate-pop-in" style="font-family: 'Ubuntu', sans-serif; color: white;" id=name>Dawar Aamir</h1>
+    <h4 class="sub animate-pop-in" style="font-family: 'Ubuntu', sans-serif; color: white;">Advertiser//Developer</h4>
+    <a class="email animate-pop-in" href="mailto: dawar.aamir@gmail.com" id="email" style="font-family: 'Ubuntu', sans-serif;">Contact Me</a>
         </header>
     </div>
 
